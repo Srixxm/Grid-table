@@ -1,0 +1,37 @@
+/*  */
+* {
+    margin: 0;
+}
+body {
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.main {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.header {
+    display: flex;
+    border: 1px solid black;
+    list-style: none;
+}
+
+.header li {
+    padding-left: 10px;
+}
+
+.second-main {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.prim,
+.sec,
+.third,
+.four {
+    border: 1px solid black;
+}
